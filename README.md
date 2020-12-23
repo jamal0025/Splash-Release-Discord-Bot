@@ -20,3 +20,13 @@
 - Tag the channel where you want the splash embed to display (Tag channel or use `<#CHANNEL_ID>`).
 - Select what message is given to users who pass splash and follow the prompt.
 - Confirm creation by typing `yes`
+
+
+### FAQ
+
+#### When I run the bot, I see `discord.errors.PrivilagedIntentsRequired`... error
+Make sure you have 'Server Members Privilage Intent' enabled on your discord application (`https://discord.com/developers/applications/.../bot`)
+![Alt Text](https://cdn.discordapp.com/attachments/533460676795039746/791351823688138782/unknown.png)
+
+#### Recieving SSL certificate expired error
+Update your certificate https://crt.sh/?id=2835394
